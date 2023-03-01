@@ -1,13 +1,132 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekt 01 - vizitka</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Adéla na cestách</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:wght@400;600;800&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
+
+    <!--Hlavička stránky-->
+
+    <header class="hlavicka">
+        <h1>Adéla na cestách</h1>
+    </header>
+
+
+    <!--Menu-->
+    <ul class="menu">
+        <li><a href="#omne">O mne</a></li>
+        <li><a href="#fotogalerie">Fotogalerie</a></li>
+        <li><a href="#pruvodce">Turistický průvodce</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+
+    <!--Sekce o mne-->
+    <section class="omne" id="omne">
+        <h2>O mně</h2>
+
+        <img class= adela src="obrazky/foto.jpg" alt="Foto Adély Maříkové">
+        
+        <p>Jmenuji se Adéla, ale všichni mi říkají Áďo. Většinu svého volné času trávím v přírodě. Kdykoliv můžu, vyrazím na hory. <em>Hory miluju</em>, nemůžu se jich nabažit, jsou prostě úžasné.</p> 
+        
+        <p>Dříve jsem pracovala v kanceláři u počítače, ale nedávno jsem se rozhodla, že ze svého koníčka údělám zdroj obživy, a stala jsem se turistickým průvodcem. Splnila jsem si životní sen a organizuji zájezdy do hor po celém světě.</p> 
+    </section>
+    
+    
+    <!--Sekce fotogalérie-->
+    <section class="fotogalerie" id="fotogalerie">
+        <h2>Fotogalerie</h2>
+        
+        <p>Při svých výletech ráda fotím. Díky fotkám si mohu kdykoliv připomenout všechny úžasná místa, kde jsem byla. Zde je malý výběr těch, na které jsem opravdu pyšná.</p>
+
+        <img src="obrazky/hory1.jpg" alt="hory1">
+        <img src="obrazky/hory2.jpg" alt="hory2">
+        <img src="obrazky/hory3.jpg" alt="hory3">
+        <img src="obrazky/hory4.jpg" alt="hory4">
+        <img src="obrazky/hory5.jpg" alt="hory5">
+        <img src="obrazky/hory6.jpg" alt="hory6">
+        <img src="obrazky/hory7.jpg" alt="hory7">
+        <img src="obrazky/hory8.jpg" alt="hory8">
+        <img src="obrazky/hory9.jpg" alt="hory9">
+    </section>
+        
+        
+        <!--Sekce turistický průvodce-->
+    <section class="pruvodce" id="pruvodce">
+        <h2>Turistický průvodce</h2>
+
+        <img class="foto-pruvodce" src="obrazky/turistika.jpg" alt="Adéla odpočívá">
+        
+        <p>Pracuji jako turistický průvodce pro <strong>cestovní kancelář Horalka.</strong> Organizujeme zájezdy do hor po celém světě. Většinu zájezdů, které organizuji, také na místě sama provázím. Na horách jsem nejšťastnější a jen v kanceláři bych nevydržela.</p>
+        
+        <p>Pokud si nevyberete z naší nabídky, mohu vám <strong>s organizací výletu</strong> i mimo cestovní kancelář.</p> 
+        
+        <h3>Orientační ceník mých služeb</h3>
+
+        <table class="tabulka">
+            <tr>
+                <th>Služba</th>
+                <th class="cena">Cena</th>
+            </tr>
+            <tr>
+                <td>Plánování výletu  </td>
+                <td class="cena">1500 Kč</td>
+            </tr>
+            <tr>
+                <td>Zajištění cestovního pojištění</td>
+                <td class="cena">300 Kč/hod</td>
+            </tr>
+            <tr>
+                <td>Pomoc s nákupem vybavení</td>
+                <td class="cena">700 Kč/hod</td>
+            </tr>
+            <tr>
+                <td>Průvodce v horách </td>
+                <td class="cena">2000 Kč/den</td>
+            </tr>
+        </table>
+    </section>
+
+    <!--Sekcia kontakt-->
+
+    <section class="kontakt" id="kontakt">
+        <h2>Kontakt</h2>
+
+        <img class=foto-kontakt src="obrazky/pohoda.jpg" alt="Adéla vaří">
+        
+        <p>Ráda si povídám. O horách, hudbě, prostě o životě. Ráda zajdu na koncert nebo na cestovatelskou přednášku. Pokud máš podobné zájmy, klidně mi napiš na <a href="mailto:adela@email.cz">email</a> nebo se mi ozvi na <a href="https://www.facebook.com" target="_blank">Facebooku</a>. Stále hledám nové kamarády.</p>
+    
+        <h3>Oficiální kontakt pro pracoví záležitosti</h3>
+        
+        <p>
+            Adéla Maříková<br>
+            Pouliční 123<br>
+            Městečko nad Řekou<br>
+            123 45
+        </p>
+
+        <p>IČ: 12345678</p>
+
+        <p>
+            E-mail: <a href="mailto:adela@email.cz">adela@email.cz</a><br>
+            Mobil: +420 987 654 321
+        </p>
+    </section>
+    
+    <!--Päta-->
+    <footer class="paticka">
+        <p>© 2023, Adéla Maříková</p> 
+    </footer>
+    
+
     
 </body>
 </html>
